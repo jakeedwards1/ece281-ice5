@@ -26,4 +26,8 @@ env:
 
 If successful then GHDL will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
-Assert statements of other severity levels, such as "error" w
+Assert statements of other severity levels, such as "error" 
+
+![alt text](Waveform-1.png)
+
+I was not able to add f_Q and f_Q_next to my waveform. Vivado did not give me the option maybe because they had enum types?
